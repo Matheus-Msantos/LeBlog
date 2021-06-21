@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeBlog - Store</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../dist/css/style.css">
+
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="header">
+      <h1 class="header__title">LeBlog</h1>
+
+      <div class="header__image">
+        <img src="image/Imagem-logo.png">
+      </div>
+
+      <nav class="navegacao">
+        <ul class="navegacao__lista">
+          <li class="navegacao__item">
+            <a href=" #" class="navegacao__link">
+              Shop
+              <img class="navegacao__link--img" src="image/left-arrow.png">
+            </a>
+          </li>
+          <li class="navegacao__item">
+            <a href=" #" class="navegacao__link">Novidades</a>
+          </li>
+          <li class="navegacao__item">
+            <a href=" #" class="navegacao__link">Coleções</a>
+          </li>
+          <li class="navegacao__item">
+            <a href=" #" class="navegacao__link">Outlet</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__buscar">
+        <input id="box" class="header__buscar--input" type="text" placeholder="Buscar">
+        <label for="box"></label>
+
+        <div>
+          <button class="header__buscar--btn">
+            <img class="img__link" src="image/search.png">
+          </button>
+        </div>
+
+      </div>
+
+      <div class="header__menuUsuario">
+        <a class="header__link" href="#"><img class="header__link img__link" src="image/favorite.png"></a>
+        <a class="header__link" href="#"><img class="header__link img__link" src="image/user.png"></a>
+        <a class="header__link" href="#"><img class="header__link img__link" src="image/cart.png"></a>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="banner">
+        <div class="banner__image">
+
+          <div class="banner__titulo">
+            <h2 class="banner__texto--small">New colletion</h2>
+            <span class="banner__texto--big">Spring</span>
+          </div>
+
+          <div class="banner__btn--margin">
+            <a class="banner__btnPrimary" href="#">Conferir coleção</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="main__infoGroup">
+        <div class="main__info">
+          <img class="main__info--image" src="image/repeat.png" alt="símbolo de repetição">
+          <span>Até 10x sem juros</span>
+        </div>
+
+        <div class="main__info">
+          <img class="main__info--image" src="image/truck.png" alt="Caminho">
+          <span>Frete grátis acima de R$ reais</span>
+        </div>
+
+        <div class=" main__info">
+          <img class="main__info--image" src="image/percent.png" alt="simbolo de porcentagem">
+          <span>10% off no boleto</span>
+        </div>
+      </section>
+
+      <section class="vitrine">
+        <div class="vitrine__container">
+
+          <div class="vitrine__principal">
+
+            <div class="vitrine__titulo">
+              <span class="vitrine__titulo--pequeno">Spring Colletion</span>
+              <h2 class="vitrine__titulo--grande">Categorias</h2>
+            </div>
+
+            <p class="vitrine__texto">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore
+              magna aliquyam erat, sed diam voluptua. At vero eos et
+            </p>
+
+            <div class="vitrine__btn">
+              <a href="#" class="vitrine__btnPrimary">Ver todas</a>
+            </div>
+
+            <div class="vitrine__banner--principal">
+              <div class="vitrine__texto--bannerFlex">
+                <h2 class="vitrine__titulo--banner">Saias</h2>
+
+                <div class="vitrine__btn--banner">
+                  <a class="vitrine__btnPrimary--banner" href="#">Confira</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <aside class="lateral">
+            <div class="lateral__banner--primario">
+
+              <div class="lateral__texto--bannerFlex">
+                <h2 class="vitrine__titulo--banner">Vestidos</h2>
+                <div class="lateral__btn">
+                  <a class="vitrine__btnPrimary--banner" href="#">Confira</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="lateral__banner--secundario">
+
+              <div class="lateral__texto--bannerFlex--secundario">
+                <h2 class="vitrine__titulo--banner">Blusas</h2>
+                <div class="vitrine__btn--banner">
+                  <a class="vitrine__btnPrimary--banner" href="#">Confira</a>
+                </div>
+              </div>
+
+            </div>
+          </aside>
+
+        </div>
+
+      </section>
+
+      <div class="section__container">
+
+        <section class="favoritos">
+          <div class="favoritos__menu">
+            <h2 class="favoritos__titulo">Mais adorados</h2>
+
+            <nav class="favoritos__navegacao">
+              <ul class="favoritos__lista">
+                <li class="favoritos__item"><a class="favoritos__link" href="#">T-shirts</a></li>
+                <li class="favoritos__item"><a class="favoritos__link" href="#">Vestidos</a></li>
+                <li class="favoritos__item"><a class="favoritos__link" href="#">Calças</a></li>
+                <li class="favoritos__item"><a class="favoritos__link" href="#">Saias</a></li>
+              </ul>
+              <hr class="favoritos__linha">
+            </nav>
+
+          </div>
+
+          <div class="favoritos__imagens">
+            <div class="favoritos__card">
+              <img class="favoritos__imagem" src="image/imagem-favorite1.png">
+
+              <div class="favoritos__tamanho">
+                <a class="favoritos__link" href="#">p</a>
+                <a class="favoritos__link" href="#">m</a>
+                <a class="favoritos__link" href="#">g</a>
+                <a class="favoritos__link" href="#">gg</a>
+              </div>
+
+              <span class="favoritos__texto--light">Blusa Fulvia</span>
+              <span class="favoritos__texto">R$ 299,00</span>
+              <img class="favoritos__like" src="image/like.png">
+            </div>
+
+            <div class="favoritos__card">
+              <img src="image/imagem-favorite2.png">
+
+              <div class="favoritos__tamanho">
+                <a class="favoritos__link" href="#">p</a>
+                <a class="favoritos__link" href="#">m</a>
+                <a class="favoritos__link" href="#">g</a>
+                <a class="favoritos__link" href="#">gg</a>
+              </div>
+
+              <span class="favoritos__texto--light">Blusa Fulvia</span>
+              <span class="favoritos__texto">R$ 299,00</span>
+              <img class="favoritos__like" src="image/like.png">
+            </div>
+
+            <div class="favoritos__card">
+              <img src="image/imagem-favorite3.png">
+
+              <div class="favoritos__tamanho">
+                <a class="favoritos__link" href="#">p</a>
+                <a class="favoritos__link" href="#">m</a>
+                <a class="favoritos__link" href="#">g</a>
+                <a class="favoritos__link" href="#">gg</a>
+              </div>
+
+              <span class="favoritos__texto--light">Blusa Fulvia</span>
+              <span class="favoritos__texto">R$ 299,00</span>
+              <img class="favoritos__like" src="image/like.png">
+            </div>
+
+          </div>
+        </section>
+
+        <section class="vitrine__secundaria">
+          <div class="vitrine__summer">
+            <img src="image/summer.png">
+
+            <div class="vitrine__btn--secundario">
+              <a class="vitrine__btnPrimary--secundario">Ver toda a coleção</a>
+            </div>
+
+          </div>
+
+          <aside class="vitrine__secundaria--lateral">
+            <div class="vitrine__titulo">
+              <h2 class="vitrine__titulo--pequeno">New collection</h2>
+              <span class="vitrine__titulo--grande">Summer</span>
+            </div>
+
+            <p class="vitrine__texto vitrine__texto--spacing">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt
+              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+              duo
+              dolores et ea rebum. Stet clita kasd
+            </p>
+
+            <div class="vitrine__imagem">
+              <div class="vitrine__flecha">
+                <img class="img__link" src="image/arrow-left.png">
+              </div>
+
+              <img src="image/summer-lateral.png">
+
+              <div class="vitrine__flecha">
+                <img class="img__link" src="image/arrow-right.png">
+              </div>
+
+            </div>
+
+          </aside>
+        </section>
+      </div>
+
+      <section class="contato">
+        <span class="contato__insta">Follow us</span>
+        <span class="contato__insta--bold">@leblogstore</span>
+
+        <div class="contato__imagem">
+          <img class="contato__arrow img__link" src="image/arrow-left_white.png">
+
+          <div class="contato__card">
+            <img class="contato__img" src="image/image-insta1.png">
+            <div class="contato__card--hover">
+              <img class="contato__card--insta" src="image/bgInsta.png">
+            </div>
+          </div>
+
+          <div class="contato__card">
+            <img class="contato__img" src="image/image-insta2.png">
+            <div class="contato__card--hover">
+              <img class="contato__card--insta" src="image/bgInsta.png">
+            </div>
+          </div>
+
+          <div class="contato__card">
+            <img class="contato__img" src="image/image-insta3.png">
+            <div class="contato__card--hover">
+              <img class="contato__card--insta" src="image/bgInsta.png">
+            </div>
+          </div>
+
+          <div class="contato__card">
+            <img class="contato__img" src="image/image-insta4.png">
+            <div class="contato__card--hover">
+              <img class="contato__card--insta" src="image/bgInsta.png">
+            </div>
+          </div>
+
+          <div class="contato__card">
+            <img class="contato__img" src="image/image-insta5.png">
+            <div class="contato__card--hover">
+              <img class="contato__card--insta" src="image/bgInsta.png">
+            </div>
+          </div>
+
+          <img class="contato__arrow--right img__link" src="image/arrow-right_white.png">
+
+        </div>
+      </section>
+
+      <div class="section__container">
+
+        <section class="sobre ">
+          <h2 class="sobre__titulo">Sobre a <span class="sobre__titulo--regular">Le Blog store</span></h2>
+
+          <p class="sobre__texto">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            ut
+            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            ut
+            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+            dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            ut
+            labore et dolore magna aliquyam erat, sed diam
+          </p>
+        </section>
+
+        <section class="contato__email">
+          <h2 class="contato__email--titulo">Newsletter</h2>
+          <p class="contato__email--texto">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            consetetur sadipscing elitr ut labore et dolore
+          </p>
+
+          <div class="contato__inputForm">
+            <input class="contato__input" type="text" placeholder="E-mail">
+
+            <div class="contato__btn">
+              <a class="contato__btnPrimary">Cadastar</a>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+
+    <footer>
+
+      <section class="section__container info">
+        <div class="info__flex">
+
+          <div class="info__group">
+            <h2 class="info__titulo">Instucional</h2>
+            <a class="info__link" href="#">Sobre a LeBlog</a>
+            <a class="info__link" href="#">LeBlognews | Blog</a>
+            <a class="info__link" href="#">Cadastre-se</a>
+            <a class="info__link" href="#">Showroom</a>
+          </div>
+
+          <div class="info__group">
+            <h2 class="info__titulo">Ajuda e suporte</h2>
+            <a class="info__link" href=#>Política de troca</a>
+            <a class="info__link" href=#>Envio e entrega</a>
+            <a class="info__link" href=#>Política de privacidade</a>
+            <a class="info__link" href=#>Trocas e devoluções</a>
+          </div>
+
+          <div class="info__group">
+            <h2 class="info__titulo">Atendimento ao cliente</h2>
+            <span class="info__texto--margin">Fale conosco</span>
+            <span class="info__texto">Seg a sex. 09h ás 17h</span>
+            <span class="info__texto">Whatsapp: (11) 94037-2794</span>
+            <span class="info__texto--regular">atendimento@leblogstore.com.br</span>
+          </div>
+
+          <div class="info__group">
+            <h2 class="info__titulo">Formas de pagamento</h2>
+            <img src="image/pagamento.png">
+          </div>
+
+          <div class="info__group">
+            <h2 class="info__titulo">Segurança</h2>
+            <img src="image/seguranca.png">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="info__direitos">
+        <div class="info__redes">
+          <img class="info__logo img__link" src="image/facebook.png">
+          <img class="info__logo img__link" src="image/instagram.png">
+          <img class="info__logo img__link" src="image/twitter.png">
+        </div>
+
+        <p class="info__texto--direitos">
+          COPYRIGHT AAA - TODOS OS DIREITOS RESERVADOS | E-BUENO Comércio de Calçados e Acessórios - EIRELI
+          CNPJ 17.495.410/0001-53 | Rua Costa Aguiar, n-1221 - Ipiranga - CEP 042040-001 São Paulo - SP
+        </p>
+
+        <div class="info__vtex">
+          <img class="info__logo img__link" src="image/vtex.png">
+        </div>
+      </section>
+
+    </footer>
+
+  </div>
+</body>
+
+</html>

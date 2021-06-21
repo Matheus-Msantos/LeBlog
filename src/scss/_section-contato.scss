@@ -1,0 +1,133 @@
+.contato {
+  &__insta {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 300;
+  }
+
+  &__insta--bold {
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__imagem {
+    position: relative;
+    width: 1280px;
+    display: flex;
+    padding-top: 57px;
+  }
+
+  &__img {
+    width: 253px;
+  }
+
+  &__card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+
+    .contato__card--hover:hover {
+      background: rgba(255, 255, 255, 0.5);
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+
+      .contato__card--insta {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    align-self: center;
+  }
+
+  &__arrow--right {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    align-self: center;
+  }
+
+  &__card--hover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__card--insta {
+    margin: 100px 100px;
+    opacity: 0;
+  }
+
+  &__email {
+    width: 466px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 69px;
+  }
+
+  &__email--titulo {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &__email--texto {
+    padding-top: 23px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  &__inputForm {
+    margin-top: 20px;
+  }
+
+  &__input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid $color-light;
+    outline: none;
+
+    &::placeholder {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-left: 25px;
+      padding-bottom: 15px;
+    }
+
+    &:focus {
+      border-bottom: 3px solid $color-primary;
+    }
+  }
+
+  &__btn {
+    margin: 40px auto;
+  }
+
+  &__btnPrimary {
+    @include btnPrimary(59px, 15px, $color-primary, $color-primary, 300);
+
+    &:hover {
+      color: $color-secundary;
+      box-shadow: inset 0 -100px $color-primary;
+      border-color: $color-light;
+      transition: 0.3s;
+    }
+  }
+}

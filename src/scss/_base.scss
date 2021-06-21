@@ -1,0 +1,40 @@
+@mixin btnPrimary($px, $py, $border-color, $text-color, $f-w) {
+  padding: $py $px;
+  border: 1px solid $border-color;
+  text-align: center;
+  color: $text-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: $f-w;
+  letter-spacing: 1px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-secundary;
+  font-family: $font-lato;
+  font-size: 13px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.section__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.img__link {
+  &:hover {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+  }
+}

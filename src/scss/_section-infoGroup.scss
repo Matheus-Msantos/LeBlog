@@ -1,0 +1,18 @@
+.main {
+  &__infoGroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  &__info {
+    padding: 0 8%;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  &__info--image {
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+}

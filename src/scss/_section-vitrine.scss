@@ -1,0 +1,177 @@
+.vitrine {
+  &__container {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+  }
+
+  &__principal {
+    width: 450px;
+    padding-top: 45px;
+  }
+
+  &__titulo--pequeno {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__titulo--grande {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: $font-arial;
+    text-transform: uppercase;
+  }
+
+  &__texto {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+  }
+
+  &__btn {
+    margin-top: 51px;
+  }
+
+  &__btnPrimary {
+    @include btnPrimary(59px, 15px, $color-primary, $color-primary, 300);
+
+    &:hover {
+      color: $color-secundary;
+      box-shadow: inset 0 -100px $color-primary;
+      border-color: $color-light;
+      transition: 0.3s;
+    }
+  }
+
+  &__banner--principal {
+    margin-top: 60px;
+    height: 485px;
+    background: url("../../src/image/categ-saias.png");
+    background-position: start;
+    background-repeat: no-repeat;
+  }
+
+  &__texto--bannerFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 111px;
+    padding-right: 55px;
+  }
+
+  &__btn--banner {
+    margin-top: 30px;
+  }
+
+  &__btnPrimary--banner {
+    @include btnPrimary(51px, 15px, $color-secundary, $color-secundary, 900);
+
+    &:hover {
+      box-shadow: inset 0 -100px $color-primary;
+      border-color: $color-light;
+      transition: 0.3s;
+    }
+  }
+
+  &__titulo--banner {
+    color: $color-secundary;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: $font-arial;
+    text-transform: uppercase;
+  }
+
+  /*Section 2*/
+
+  &__secundaria {
+    display: flex;
+  }
+
+  &__summer {
+    padding-top: 158px;
+  }
+
+  &__btn--secundario {
+    margin: 45px 135px;
+  }
+
+  &__btnPrimary--secundario {
+    @include btnPrimary(81px, 15px, $color-primary, $color-primary, 300);
+
+    &:hover {
+      color: $color-secundary;
+      box-shadow: inset 0 -100px $color-primary;
+      border-color: $color-light;
+      transition: 0.3s;
+    }
+  }
+
+  &__secundaria--lateral {
+    margin-left: 53px;
+  }
+
+  &__titulo {
+    padding-top: 66px;
+  }
+
+  &__texto--spacing {
+    margin: 0 64px;
+  }
+
+  &__imagem {
+    display: flex;
+    padding-top: 65px;
+  }
+
+  &__flecha {
+    align-self: center;
+    padding: 0 20px;
+  }
+}
+
+.lateral {
+  margin-left: 40px;
+
+  &__banner--primario {
+    height: 485px;
+    width: 425px;
+    background: url("../../src/image/categ-vestidos.png");
+    background-position: start;
+    background-repeat: no-repeat;
+  }
+
+  &__texto--bannerFlex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 247px;
+    padding-left: 46px;
+  }
+
+  &__btn {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  &__banner--secundario {
+    height: 485px;
+    width: 455px;
+    background: url("../../src/image/categ-blusas.png");
+    background-position: start;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+  }
+
+  &__texto--bannerFlex--secundario {
+    display: flex;
+    flex-direction: column;
+    padding-top: 66px;
+    padding-left: 175px;
+  }
+}

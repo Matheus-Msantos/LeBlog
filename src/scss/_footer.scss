@@ -1,0 +1,81 @@
+.info {
+  padding-top: 90px;
+
+  &__flex {
+    display: flex;
+  }
+
+  &__group {
+    margin-left: 60px;
+  }
+
+  &__titulo {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: $color-primary;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 2rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__texto {
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+  }
+
+  &__texto--margin {
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+  }
+
+  &__texto--regular {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+  }
+
+  &__direitos {
+    display: flex;
+    padding-top: 56px;
+    padding-bottom: 50px;
+  }
+
+  &__redes {
+    width: 300px;
+    margin-right: 48px;
+    margin-left: 90px;
+  }
+
+  &__texto--direitos {
+    font-weight: 300;
+  }
+
+  &__logo {
+    padding: 0 13px;
+  }
+
+  &__vtex {
+    padding-left: 180px;
+    padding-right: 36px;
+  }
+}
